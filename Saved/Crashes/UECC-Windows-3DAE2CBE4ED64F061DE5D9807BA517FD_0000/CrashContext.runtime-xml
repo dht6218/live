@@ -1,0 +1,2133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>B60F53C44E96BBC2200E74B33858E8AE</ExecutionGuid>
+		<CrashGUID>UECC-Windows-3DAE2CBE4ED64F061DE5D9807BA517FD_0000</CrashGUID>
+		<IsEnsure>false</IsEnsure>
+		<IsStall>false</IsStall>
+		<IsAssert>false</IsAssert>
+		<CrashType>Crash</CrashType>
+		<ErrorMessage>Unhandled Exception: 0x80000003</ErrorMessage>
+		<CrashReporterMessage />
+		<CrashReporterMessage>Attended</CrashReporterMessage>
+		<ProcessId>7100</ProcessId>
+		<SecondsSinceStart>0</SecondsSinceStart>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsWithDebugInfo>true</IsWithDebugInfo>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<GameName>UE-live</GameName>
+		<ExecutableName>UnrealEditor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>WindowsEditor</PlatformName>
+		<PlatformFullName>Win64 [Windows 11 (25H2) [10.0.26200.8246]  64b]</PlatformFullName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>5.7.4-51494982+++UE5+Release-5.7</EngineVersion>
+		<EngineCompatibleVersion>5.7.4-51494982+++UE5+Release-5.7</EngineCompatibleVersion>
+		<CommandLine>F:\epic\UE_5.7\project\live\live.uproject</CommandLine>
+		<LanguageLCID>4</LanguageLCID>
+		<AppDefaultLocale>zh-CN</AppDefaultLocale>
+		<BuildVersion>++UE5+Release-5.7-CL-51494982</BuildVersion>
+		<Symbols>**UE5*Release-5.7-CL-51494982-Win64-Development</Symbols>
+		<IsUERelease>true</IsUERelease>
+		<IsRequestingExit>false</IsRequestingExit>
+		<UserName />
+		<BaseDir>F:/epic/UE_5.7/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>F:/epic/UE_5.7/</RootDir>
+		<MachineId>3966BA3E4874AE88058D4391760806EA</MachineId>
+		<LoginId>3966ba3e4874ae88058d4391760806ea</LoginId>
+		<EpicAccountId>614ea0d671da4651963f103215cd523f</EpicAccountId>
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint />
+		<CrashDumpMode>0</CrashDumpMode>
+		<GameStateName />
+		<Misc.NumberOfCores>24</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>24</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) Ultra 9 275HX</Misc.CPUBrand>
+		<Misc.CPUModelID>27746</Misc.CPUModelID>
+		<Misc.CPUMicrocodeRevision>280</Misc.CPUMicrocodeRevision>
+		<Misc.PrimaryGPUBrand>NVIDIA GeForce RTX 5060 Laptop GPU</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 11 (25H2) [10.0.26200.8246]</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<Misc.AnticheatProvider />
+		<MemoryStats.TotalPhysical>33752997888</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>38853271552</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>32</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>0</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>0</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>0</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>0</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>0</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>0</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+		<CallStack>npu_d3d12_umd
+D3D12Core
+D3D12Core
+D3D12Core
+D3D12Core
+D3D12Core
+D3D12Core
+D3D12Core
+D3D12Core
+D3D12
+D3D12
+UnrealEditor_NNERuntimeORT
+UnrealEditor_NNERuntimeORT
+UnrealEditor_NNERuntimeORT
+UnrealEditor_NNERuntimeORT
+UnrealEditor_Core
+UnrealEditor_Projects
+UnrealEditor_Projects
+UnrealEditor_Projects
+UnrealEditor
+UnrealEditor
+UnrealEditor
+UnrealEditor
+UnrealEditor
+UnrealEditor
+UnrealEditor
+kernel32
+ntdll</CallStack>
+		<PCallStack>
+
+npu_d3d12_umd 0x000001a2c4ee0000 + 1020f5 
+D3D12Core 0x00007ffdfe120000 + 652ea 
+D3D12Core 0x00007ffdfe120000 + ff408 
+D3D12Core 0x00007ffdfe120000 + a3f85 
+D3D12Core 0x00007ffdfe120000 + 7a6fd 
+D3D12Core 0x00007ffdfe120000 + 5cf2a 
+D3D12Core 0x00007ffdfe120000 + 79535 
+D3D12Core 0x00007ffdfe120000 + 6b6a5 
+D3D12Core 0x00007ffdfe120000 + 6b4c8 
+d3d12 0x00007ffee58f0000 + 8103 
+d3d12 0x00007ffee58f0000 + 6bcb 
+UnrealEditor-NNERuntimeORT 0x000001a2c2e70000 + 19512 
+UnrealEditor-NNERuntimeORT 0x000001a2c2e70000 + 254e5 
+UnrealEditor-NNERuntimeORT 0x000001a2c2e70000 + 25ea3 
+UnrealEditor-NNERuntimeORT 0x000001a2c2e70000 + 1fb4 
+UnrealEditor-Core 0x00007ffe466b0000 + 5920b2 
+UnrealEditor-Projects 0x00007ffeeb0b0000 + 3fb4d 
+UnrealEditor-Projects 0x00007ffeeb0b0000 + 5c588 
+UnrealEditor-Projects 0x00007ffeeb0b0000 + 3f499 
+UnrealEditor 0x00007ff797280000 + 25963 
+UnrealEditor 0x00007ff797280000 + 2979d 
+UnrealEditor 0x00007ff797280000 + 20a1b 
+UnrealEditor 0x00007ff797280000 + 20d0a 
+UnrealEditor 0x00007ff797280000 + 24590 
+UnrealEditor 0x00007ff797280000 + 35be4 
+UnrealEditor 0x00007ff797280000 + 38f9a 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</PCallStack>
+		<PCallStackHash>4590ED4478D8227664474407C7C41AD10CD843B6</PCallStackHash>
+		<Threads>
+			<Thread>
+				<CallStack>npu_d3d12_umd 0x000001a2c4ee0000 + 1020f5 
+D3D12Core 0x00007ffdfe120000 + 652ea 
+D3D12Core 0x00007ffdfe120000 + ff408 
+D3D12Core 0x00007ffdfe120000 + a3f85 
+D3D12Core 0x00007ffdfe120000 + 7a6fd 
+D3D12Core 0x00007ffdfe120000 + 5cf2a 
+D3D12Core 0x00007ffdfe120000 + 79535 
+D3D12Core 0x00007ffdfe120000 + 6b6a5 
+D3D12Core 0x00007ffdfe120000 + 6b4c8 
+d3d12 0x00007ffee58f0000 + 8103 
+d3d12 0x00007ffee58f0000 + 6bcb 
+UnrealEditor-NNERuntimeORT 0x000001a2c2e70000 + 19512 
+UnrealEditor-NNERuntimeORT 0x000001a2c2e70000 + 254e5 
+UnrealEditor-NNERuntimeORT 0x000001a2c2e70000 + 25ea3 
+UnrealEditor-NNERuntimeORT 0x000001a2c2e70000 + 1fb4 
+UnrealEditor-Core 0x00007ffe466b0000 + 5920b2 
+UnrealEditor-Projects 0x00007ffeeb0b0000 + 3fb4d 
+UnrealEditor-Projects 0x00007ffeeb0b0000 + 5c588 
+UnrealEditor-Projects 0x00007ffeeb0b0000 + 3f499 
+UnrealEditor 0x00007ff797280000 + 25963 
+UnrealEditor 0x00007ff797280000 + 2979d 
+UnrealEditor 0x00007ff797280000 + 20a1b 
+UnrealEditor 0x00007ff797280000 + 20d0a 
+UnrealEditor 0x00007ff797280000 + 24590 
+UnrealEditor 0x00007ff797280000 + 35be4 
+UnrealEditor 0x00007ff797280000 + 38f9a 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>true</IsCrashed>
+				<Registers />
+				<ThreadID>14596</ThreadID>
+				<ThreadName>GameThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 1657b4 
+ntdll 0x00007fff1c7a0000 + 75dfe 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>32076</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 1657b4 
+ntdll 0x00007fff1c7a0000 + 75dfe 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>29488</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 1657b4 
+ntdll 0x00007fff1c7a0000 + 75dfe 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>31832</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 162224 
+KERNELBASE 0x00007fff1a130000 + c1744 
+UnrealEditor-Core 0x00007ffe466b0000 + 721c05 
+UnrealEditor-Core 0x00007ffe466b0000 + 7232da 
+UnrealEditor-Core 0x00007ffe466b0000 + 7165c5 
+UnrealEditor-Core 0x00007ffe466b0000 + 72509a 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16332</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 162184 
+ntdll 0x00007fff1c7a0000 + d1014 
+KERNELBASE 0x00007fff1a130000 + 46f01 
+UnrealEditor-TraceLog 0x00007fff0b240000 + 1377f 
+UnrealEditor-TraceLog 0x00007fff0b240000 + 1086 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>19396</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-Core 0x00007ffe466b0000 + 72a213 
+UnrealEditor-Core 0x00007ffe466b0000 + 33e9e6 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>20676</ThreadID>
+				<ThreadName>BackgroundThreadPool #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-Core 0x00007ffe466b0000 + 72a213 
+UnrealEditor-Core 0x00007ffe466b0000 + 33e9e6 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3848</ThreadID>
+				<ThreadName>BackgroundThreadPool #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-Core 0x00007ffe466b0000 + 72a213 
+UnrealEditor-Core 0x00007ffe466b0000 + d7405 
+UnrealEditor-Core 0x00007ffe466b0000 + bcc5d 
+UnrealEditor-Core 0x00007ffe466b0000 + e9700 
+UnrealEditor-Core 0x00007ffe466b0000 + b1185 
+UnrealEditor-Core 0x00007ffe466b0000 + 33ecc4 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>28840</ThreadID>
+				<ThreadName>Foreground Worker #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-Core 0x00007ffe466b0000 + 72a213 
+UnrealEditor-Core 0x00007ffe466b0000 + d7405 
+UnrealEditor-Core 0x00007ffe466b0000 + bcc5d 
+UnrealEditor-Core 0x00007ffe466b0000 + e9700 
+UnrealEditor-Core 0x00007ffe466b0000 + b1185 
+UnrealEditor-Core 0x00007ffe466b0000 + 33ecc4 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>18188</ThreadID>
+				<ThreadName>Foreground Worker #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-Core 0x00007ffe466b0000 + 72a213 
+UnrealEditor-Core 0x00007ffe466b0000 + d7405 
+UnrealEditor-Core 0x00007ffe466b0000 + bcc5d 
+UnrealEditor-Core 0x00007ffe466b0000 + e9700 
+UnrealEditor-Core 0x00007ffe466b0000 + b1185 
+UnrealEditor-Core 0x00007ffe466b0000 + 33ecc4 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>22036</ThreadID>
+				<ThreadName>Background Worker #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-Core 0x00007ffe466b0000 + 72a213 
+UnrealEditor-Core 0x00007ffe466b0000 + d7405 
+UnrealEditor-Core 0x00007ffe466b0000 + bcc5d 
+UnrealEditor-Core 0x00007ffe466b0000 + e9700 
+UnrealEditor-Core 0x00007ffe466b0000 + b1185 
+UnrealEditor-Core 0x00007ffe466b0000 + 33ecc4 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3564</ThreadID>
+				<ThreadName>Background Worker #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-Core 0x00007ffe466b0000 + 72a213 
+UnrealEditor-Core 0x00007ffe466b0000 + d7405 
+UnrealEditor-Core 0x00007ffe466b0000 + bcc5d 
+UnrealEditor-Core 0x00007ffe466b0000 + e9700 
+UnrealEditor-Core 0x00007ffe466b0000 + b1185 
+UnrealEditor-Core 0x00007ffe466b0000 + 33ecc4 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>21644</ThreadID>
+				<ThreadName>Background Worker #2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-Core 0x00007ffe466b0000 + 72a213 
+UnrealEditor-Core 0x00007ffe466b0000 + d7405 
+UnrealEditor-Core 0x00007ffe466b0000 + bcc5d 
+UnrealEditor-Core 0x00007ffe466b0000 + e9700 
+UnrealEditor-Core 0x00007ffe466b0000 + b1185 
+UnrealEditor-Core 0x00007ffe466b0000 + 33ecc4 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>27760</ThreadID>
+				<ThreadName>Background Worker #3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-Core 0x00007ffe466b0000 + 72a213 
+UnrealEditor-Core 0x00007ffe466b0000 + d7405 
+UnrealEditor-Core 0x00007ffe466b0000 + bcc5d 
+UnrealEditor-Core 0x00007ffe466b0000 + e9700 
+UnrealEditor-Core 0x00007ffe466b0000 + b1185 
+UnrealEditor-Core 0x00007ffe466b0000 + 33ecc4 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>26560</ThreadID>
+				<ThreadName>Background Worker #4</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-Core 0x00007ffe466b0000 + 72a213 
+UnrealEditor-Core 0x00007ffe466b0000 + d7405 
+UnrealEditor-Core 0x00007ffe466b0000 + bcc5d 
+UnrealEditor-Core 0x00007ffe466b0000 + e9700 
+UnrealEditor-Core 0x00007ffe466b0000 + b1185 
+UnrealEditor-Core 0x00007ffe466b0000 + 33ecc4 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>5404</ThreadID>
+				<ThreadName>Background Worker #5</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-Core 0x00007ffe466b0000 + 72a213 
+UnrealEditor-Core 0x00007ffe466b0000 + d7405 
+UnrealEditor-Core 0x00007ffe466b0000 + bcc5d 
+UnrealEditor-Core 0x00007ffe466b0000 + e9700 
+UnrealEditor-Core 0x00007ffe466b0000 + b1185 
+UnrealEditor-Core 0x00007ffe466b0000 + 33ecc4 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7104</ThreadID>
+				<ThreadName>Background Worker #6</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-Core 0x00007ffe466b0000 + 72a213 
+UnrealEditor-Core 0x00007ffe466b0000 + d7405 
+UnrealEditor-Core 0x00007ffe466b0000 + bcc5d 
+UnrealEditor-Core 0x00007ffe466b0000 + e9700 
+UnrealEditor-Core 0x00007ffe466b0000 + b1185 
+UnrealEditor-Core 0x00007ffe466b0000 + 33ecc4 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14512</ThreadID>
+				<ThreadName>Background Worker #7</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-Core 0x00007ffe466b0000 + 72a213 
+UnrealEditor-Core 0x00007ffe466b0000 + d7405 
+UnrealEditor-Core 0x00007ffe466b0000 + bcc5d 
+UnrealEditor-Core 0x00007ffe466b0000 + e9700 
+UnrealEditor-Core 0x00007ffe466b0000 + b1185 
+UnrealEditor-Core 0x00007ffe466b0000 + 33ecc4 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15876</ThreadID>
+				<ThreadName>Background Worker #8</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-Core 0x00007ffe466b0000 + 72a213 
+UnrealEditor-Core 0x00007ffe466b0000 + d7405 
+UnrealEditor-Core 0x00007ffe466b0000 + bcc5d 
+UnrealEditor-Core 0x00007ffe466b0000 + e9700 
+UnrealEditor-Core 0x00007ffe466b0000 + b1185 
+UnrealEditor-Core 0x00007ffe466b0000 + 33ecc4 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10104</ThreadID>
+				<ThreadName>Background Worker #9</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-Core 0x00007ffe466b0000 + 72a213 
+UnrealEditor-Core 0x00007ffe466b0000 + d7405 
+UnrealEditor-Core 0x00007ffe466b0000 + bcc5d 
+UnrealEditor-Core 0x00007ffe466b0000 + e9700 
+UnrealEditor-Core 0x00007ffe466b0000 + b1185 
+UnrealEditor-Core 0x00007ffe466b0000 + 33ecc4 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>20892</ThreadID>
+				<ThreadName>Background Worker #10</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-Core 0x00007ffe466b0000 + 72a213 
+UnrealEditor-Core 0x00007ffe466b0000 + d7405 
+UnrealEditor-Core 0x00007ffe466b0000 + bcc5d 
+UnrealEditor-Core 0x00007ffe466b0000 + e9700 
+UnrealEditor-Core 0x00007ffe466b0000 + b1185 
+UnrealEditor-Core 0x00007ffe466b0000 + 33ecc4 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17124</ThreadID>
+				<ThreadName>Background Worker #11</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-Core 0x00007ffe466b0000 + 72a213 
+UnrealEditor-Core 0x00007ffe466b0000 + d7405 
+UnrealEditor-Core 0x00007ffe466b0000 + bcc5d 
+UnrealEditor-Core 0x00007ffe466b0000 + e9700 
+UnrealEditor-Core 0x00007ffe466b0000 + b1185 
+UnrealEditor-Core 0x00007ffe466b0000 + 33ecc4 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17700</ThreadID>
+				<ThreadName>Background Worker #12</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-Core 0x00007ffe466b0000 + 72a213 
+UnrealEditor-Core 0x00007ffe466b0000 + d7405 
+UnrealEditor-Core 0x00007ffe466b0000 + bcc5d 
+UnrealEditor-Core 0x00007ffe466b0000 + e9700 
+UnrealEditor-Core 0x00007ffe466b0000 + b1185 
+UnrealEditor-Core 0x00007ffe466b0000 + 33ecc4 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>20392</ThreadID>
+				<ThreadName>Background Worker #13</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-Core 0x00007ffe466b0000 + 72a213 
+UnrealEditor-Core 0x00007ffe466b0000 + d7405 
+UnrealEditor-Core 0x00007ffe466b0000 + bcc5d 
+UnrealEditor-Core 0x00007ffe466b0000 + e9700 
+UnrealEditor-Core 0x00007ffe466b0000 + b1185 
+UnrealEditor-Core 0x00007ffe466b0000 + 33ecc4 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>19420</ThreadID>
+				<ThreadName>Background Worker #14</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-Core 0x00007ffe466b0000 + 72a213 
+UnrealEditor-Core 0x00007ffe466b0000 + d7405 
+UnrealEditor-Core 0x00007ffe466b0000 + bcc5d 
+UnrealEditor-Core 0x00007ffe466b0000 + e9700 
+UnrealEditor-Core 0x00007ffe466b0000 + b1185 
+UnrealEditor-Core 0x00007ffe466b0000 + 33ecc4 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11616</ThreadID>
+				<ThreadName>Background Worker #15</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-Core 0x00007ffe466b0000 + 72a213 
+UnrealEditor-Core 0x00007ffe466b0000 + d7405 
+UnrealEditor-Core 0x00007ffe466b0000 + bcc5d 
+UnrealEditor-Core 0x00007ffe466b0000 + e9700 
+UnrealEditor-Core 0x00007ffe466b0000 + b1185 
+UnrealEditor-Core 0x00007ffe466b0000 + 33ecc4 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>31336</ThreadID>
+				<ThreadName>Background Worker #16</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-Core 0x00007ffe466b0000 + 72a213 
+UnrealEditor-Core 0x00007ffe466b0000 + d7405 
+UnrealEditor-Core 0x00007ffe466b0000 + bcc5d 
+UnrealEditor-Core 0x00007ffe466b0000 + e9700 
+UnrealEditor-Core 0x00007ffe466b0000 + b1185 
+UnrealEditor-Core 0x00007ffe466b0000 + 33ecc4 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13348</ThreadID>
+				<ThreadName>Background Worker #17</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-Core 0x00007ffe466b0000 + 72a213 
+UnrealEditor-Core 0x00007ffe466b0000 + d7405 
+UnrealEditor-Core 0x00007ffe466b0000 + bcc5d 
+UnrealEditor-Core 0x00007ffe466b0000 + e9700 
+UnrealEditor-Core 0x00007ffe466b0000 + b1185 
+UnrealEditor-Core 0x00007ffe466b0000 + 33ecc4 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2336</ThreadID>
+				<ThreadName>Background Worker #18</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-Core 0x00007ffe466b0000 + 72a213 
+UnrealEditor-Core 0x00007ffe466b0000 + d7405 
+UnrealEditor-Core 0x00007ffe466b0000 + bcc5d 
+UnrealEditor-Core 0x00007ffe466b0000 + e9700 
+UnrealEditor-Core 0x00007ffe466b0000 + b1185 
+UnrealEditor-Core 0x00007ffe466b0000 + 33ecc4 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11676</ThreadID>
+				<ThreadName>Background Worker #19</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-Core 0x00007ffe466b0000 + 72a213 
+UnrealEditor-Core 0x00007ffe466b0000 + d7405 
+UnrealEditor-Core 0x00007ffe466b0000 + bcc5d 
+UnrealEditor-Core 0x00007ffe466b0000 + e9700 
+UnrealEditor-Core 0x00007ffe466b0000 + b1185 
+UnrealEditor-Core 0x00007ffe466b0000 + 33ecc4 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>20192</ThreadID>
+				<ThreadName>Background Worker #20</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 162184 
+ntdll 0x00007fff1c7a0000 + d1014 
+KERNELBASE 0x00007fff1a130000 + 46f01 
+UnrealEditor-Core 0x00007ffe466b0000 + 54238a 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7184</ThreadID>
+				<ThreadName>FAsyncWriter_live</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 162184 
+ntdll 0x00007fff1c7a0000 + d1014 
+KERNELBASE 0x00007fff1a130000 + 46f01 
+UnrealEditor-Core 0x00007ffe466b0000 + 727d67 
+UnrealEditor-AssetRegistry 0x00007ffe59be0000 + 91800 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>20524</ThreadID>
+				<ThreadName>FAssetDataDiscovery</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 1657b4 
+ntdll 0x00007fff1c7a0000 + 75dfe 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>31708</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 162184 
+ntdll 0x00007fff1c7a0000 + d1014 
+KERNELBASE 0x00007fff1a130000 + 46f01 
+EOSSDK-Win64-Shipping 0x00007ffe01cf0000 + b19a6b 
+EOSSDK-Win64-Shipping 0x00007ffe01cf0000 + afb357 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>28292</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 162654 
+KERNELBASE 0x00007fff1a130000 + 41a93 
+UnrealEditor-HTTP 0x00007ffe1a240000 + 247624 
+UnrealEditor-HTTP 0x00007ffe1a240000 + 24508d 
+UnrealEditor-HTTP 0x00007ffe1a240000 + a61dd 
+UnrealEditor-HTTP 0x00007ffe1a240000 + af531 
+UnrealEditor-HTTP 0x00007ffe1a240000 + ae5cb 
+UnrealEditor-HTTP 0x00007ffe1a240000 + aeb69 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>31816</ThreadID>
+				<ThreadName>HttpManagerThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 162654 
+KERNELBASE 0x00007fff1a130000 + 41a93 
+UnrealEditor-WebSockets 0x00007ffe01000000 + 1b5f00 
+UnrealEditor-WebSockets 0x00007ffe01000000 + 1af3ca 
+UnrealEditor-WebSockets 0x00007ffe01000000 + 82085 
+UnrealEditor-WebSockets 0x00007ffe01000000 + 80fed 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>19544</ThreadID>
+				<ThreadName>LibwebsocketsThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-Core 0x00007ffe466b0000 + 72a213 
+UnrealEditor-OnlineSubsystem 0x00007ffe01310000 + bb6c7 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15604</ThreadID>
+				<ThreadName>OnlineAsyncTaskThreadNull DefaultInstance(1)</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-Core 0x00007ffe466b0000 + 72a213 
+UnrealEditor-Media 0x00007ffedf170000 + 68c1 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>31156</ThreadID>
+				<ThreadName>FMediaTicker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 165754 
+ntdll 0x00007fff1c7a0000 + 9c083 
+KERNELBASE 0x00007fff1a130000 + e4148 
+UnrealEditor-Core 0x00007ffe466b0000 + 474ed9 
+UnrealEditor-Core 0x00007ffe466b0000 + e82f9 
+UnrealEditor-Core 0x00007ffe466b0000 + 54927c 
+UnrealEditor-Core 0x00007ffe466b0000 + 33ecc4 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>24336</ThreadID>
+				<ThreadName>OutputDeviceRedirector</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-Core 0x00007ffe466b0000 + 72a213 
+UnrealEditor-Core 0x00007ffe466b0000 + 33e9e6 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>18840</ThreadID>
+				<ThreadName>IOThreadPool #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-Core 0x00007ffe466b0000 + 72a213 
+UnrealEditor-Core 0x00007ffe466b0000 + 33e9e6 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>32756</ThreadID>
+				<ThreadName>IOThreadPool #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-Core 0x00007ffe466b0000 + 72a213 
+UnrealEditor-Core 0x00007ffe466b0000 + 33e9e6 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>32568</ThreadID>
+				<ThreadName>IOThreadPool #2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-Core 0x00007ffe466b0000 + 72a213 
+UnrealEditor-Core 0x00007ffe466b0000 + 33e9e6 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>32560</ThreadID>
+				<ThreadName>IOThreadPool #3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 162654 
+KERNELBASE 0x00007fff1a130000 + 41a93 
+CRYPT32 0x00007fff19490000 + 9e6c7 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8156</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 162184 
+ntdll 0x00007fff1c7a0000 + d1014 
+KERNELBASE 0x00007fff1a130000 + 46f01 
+UnrealEditor-Core 0x00007ffe466b0000 + 727d67 
+UnrealEditor-ApplicationCore 0x00007ffed9740000 + 67e41 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3004</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>win32u 0x00007fff1a100000 + 1334 
+USER32 0x00007fff1bdc0000 + 3b3e2 
+UnrealEditor-ApplicationCore 0x00007ffed9740000 + 4d5b9 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>20848</ThreadID>
+				<ThreadName>WindowsRawInputThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+nvoglv64 0x00007ffe43000000 + a3661a 
+nvoglv64 0x00007ffe43000000 + 7ba579 
+nvoglv64 0x00007ffe43000000 + 7b9f7e 
+nvoglv64 0x00007ffe43000000 + a38538 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>28784</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161c24 
+KERNELBASE 0x00007fff1a130000 + 4207c 
+NvMessageBus 0x00007ffee3d50000 + 65eca 
+NvMessageBus 0x00007ffee3d50000 + 62cc6 
+NvMessageBus 0x00007ffee3d50000 + 2501ca 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6720</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 165754 
+ntdll 0x00007fff1c7a0000 + 94c0e 
+KERNELBASE 0x00007fff1a130000 + 41d78 
+NvMessageBus 0x00007ffee3d50000 + 1eab39 
+NvMessageBus 0x00007ffee3d50000 + 205c2 
+NvMessageBus 0x00007ffee3d50000 + 17fda 
+NvMessageBus 0x00007ffee3d50000 + 2501ca 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>22172</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 165754 
+ntdll 0x00007fff1c7a0000 + 94c0e 
+KERNELBASE 0x00007fff1a130000 + 41d78 
+nvwgf2umx 0x00007fff01d90000 + e9ea2d 
+nvwgf2umx 0x00007fff01d90000 + e9ec26 
+nvwgf2umx 0x00007fff01d90000 + 3ea3e3 
+nvwgf2umx 0x00007fff01d90000 + 3ef77f 
+nvwgf2umx 0x00007fff01d90000 + e6ec8a 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10328</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+nvwgf2umx 0x00007fff01d90000 + 928640 
+nvwgf2umx 0x00007fff01d90000 + e6ec8a 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>5112</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 162654 
+KERNELBASE 0x00007fff1a130000 + 41a93 
+KERNELBASE 0x00007fff1a130000 + 41961 
+nvwgf2umx 0x00007fff01d90000 + 120396 
+nvwgf2umx 0x00007fff01d90000 + e6ec8a 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>22472</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+nvwgf2umx 0x00007fff01d90000 + 98ad5f 
+nvwgf2umx 0x00007fff01d90000 + e6ec8a 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>25896</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 165754 
+ntdll 0x00007fff1c7a0000 + 94c0e 
+KERNELBASE 0x00007fff1a130000 + 41d78 
+msvcp_win 0x00007fff193e0000 + 23d2d 
+msvcp_win 0x00007fff193e0000 + 1f4a9 
+D3D12Core 0x00007ffdfe120000 + 3cf0a 
+D3D12Core 0x00007ffdfe120000 + 3ce24 
+ucrtbase 0x00007fff19fb0000 + 37b0 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>29912</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 165754 
+ntdll 0x00007fff1c7a0000 + 94c0e 
+KERNELBASE 0x00007fff1a130000 + 41d78 
+msvcp_win 0x00007fff193e0000 + 23d2d 
+msvcp_win 0x00007fff193e0000 + 1f4a9 
+D3D12Core 0x00007ffdfe120000 + 3cf0a 
+D3D12Core 0x00007ffdfe120000 + 3ce24 
+ucrtbase 0x00007fff19fb0000 + 37b0 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10700</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 165754 
+ntdll 0x00007fff1c7a0000 + 94c0e 
+KERNELBASE 0x00007fff1a130000 + 41d78 
+msvcp_win 0x00007fff193e0000 + 23d2d 
+msvcp_win 0x00007fff193e0000 + 1f4a9 
+D3D12Core 0x00007ffdfe120000 + 3cf0a 
+D3D12Core 0x00007ffdfe120000 + 3ce24 
+ucrtbase 0x00007fff19fb0000 + 37b0 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8356</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 165754 
+ntdll 0x00007fff1c7a0000 + 94c0e 
+KERNELBASE 0x00007fff1a130000 + 41d78 
+msvcp_win 0x00007fff193e0000 + 23d2d 
+msvcp_win 0x00007fff193e0000 + 1f4a9 
+D3D12Core 0x00007ffdfe120000 + 3cf0a 
+D3D12Core 0x00007ffdfe120000 + 3ce24 
+ucrtbase 0x00007fff19fb0000 + 37b0 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>22476</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 162654 
+KERNELBASE 0x00007fff1a130000 + 41a93 
+KERNELBASE 0x00007fff1a130000 + 41961 
+nvwgf2umx 0x00007fff01d90000 + 120396 
+nvwgf2umx 0x00007fff01d90000 + e6ec8a 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>27504</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 162654 
+KERNELBASE 0x00007fff1a130000 + 41a93 
+KERNELBASE 0x00007fff1a130000 + 41961 
+nvwgf2umx 0x00007fff01d90000 + 120396 
+nvwgf2umx 0x00007fff01d90000 + e6ec8a 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6664</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 162654 
+KERNELBASE 0x00007fff1a130000 + 41a93 
+KERNELBASE 0x00007fff1a130000 + 41961 
+nvwgf2umx 0x00007fff01d90000 + 120396 
+nvwgf2umx 0x00007fff01d90000 + e6ec8a 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6388</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+nvcuda64 0x00007ffdfbcf0000 + 3e7064 
+nvcuda64 0x00007ffdfbcf0000 + 1f5507 
+nvcuda64 0x00007ffdfbcf0000 + 4b1460 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>19408</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 162654 
+KERNELBASE 0x00007fff1a130000 + 41a93 
+KERNELBASE 0x00007fff1a130000 + 41961 
+nvcuda64 0x00007ffdfbcf0000 + 1f5ae4 
+nvcuda64 0x00007ffdfbcf0000 + 2d4b05 
+nvcuda64 0x00007ffdfbcf0000 + 1f5507 
+nvcuda64 0x00007ffdfbcf0000 + 4b1460 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>9616</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-D3D12RHI 0x00007ffdfe480000 + 127055 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16060</ThreadID>
+				<ThreadName>RHIInterruptThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-D3D12RHI 0x00007ffdfe480000 + 127055 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7000</ThreadID>
+				<ThreadName>RHISubmissionThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-Core 0x00007ffe466b0000 + 72a213 
+UnrealEditor-Core 0x00007ffe466b0000 + 33e9e6 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3468</ThreadID>
+				<ThreadName>DDC IO ThreadPool #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-Core 0x00007ffe466b0000 + 72a213 
+UnrealEditor-Core 0x00007ffe466b0000 + 33e9e6 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15536</ThreadID>
+				<ThreadName>DDC IO ThreadPool #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-Core 0x00007ffe466b0000 + 72a213 
+UnrealEditor-Core 0x00007ffe466b0000 + 33e9e6 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11276</ThreadID>
+				<ThreadName>DDC IO ThreadPool #2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-Core 0x00007ffe466b0000 + 72a213 
+UnrealEditor-Core 0x00007ffe466b0000 + 33e9e6 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7492</ThreadID>
+				<ThreadName>DDC IO ThreadPool #3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161c24 
+MSWSOCK 0x00007fff18310000 + 1767f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14492</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-Core 0x00007ffe466b0000 + 72a213 
+UnrealEditor-DerivedDataCache 0x00007ffe1eec0000 + 148c57 
+UnrealEditor-Core 0x00007ffe466b0000 + 33ecc4 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>29640</ThreadID>
+				<ThreadName>FileSystemCacheStoreMaintainer</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 162184 
+ntdll 0x00007fff1c7a0000 + d1014 
+KERNELBASE 0x00007fff1a130000 + 46f01 
+UnrealEditor-Core 0x00007ffe466b0000 + 727d67 
+UnrealEditor-Engine 0x00007ffe1a670000 + 1de9622 
+UnrealEditor-Engine 0x00007ffe1a670000 + 1e2ec34 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>28856</ThreadID>
+				<ThreadName>ShaderCompilingThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 162654 
+KERNELBASE 0x00007fff1a130000 + 41a93 
+UnrealEditor-DevHttp 0x00007ffe17cc0000 + 208954 
+UnrealEditor-DevHttp 0x00007ffe17cc0000 + 2063bd 
+UnrealEditor-DevHttp 0x00007ffe17cc0000 + 808c8 
+UnrealEditor-Core 0x00007ffe466b0000 + 33ecc4 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>21112</ThreadID>
+				<ThreadName>HttpConnectionPool</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 162184 
+ntdll 0x00007fff1c7a0000 + d1014 
+KERNELBASE 0x00007fff1a130000 + 46f01 
+UnrealEditor-Core 0x00007ffe466b0000 + 727d67 
+UnrealEditor-AssetRegistry 0x00007ffe59be0000 + 91a7e 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3832</ThreadID>
+				<ThreadName>FAssetDataGatherer</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-Core 0x00007ffe466b0000 + 72a213 
+UnrealEditor-Core 0x00007ffe466b0000 + 4302cb 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>28864</ThreadID>
+				<ThreadName>IoDispatcher</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-Core 0x00007ffe466b0000 + 72a213 
+UnrealEditor-Messaging 0x00007fff13b00000 + 209bc 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>26848</ThreadID>
+				<ThreadName>FMessageBus.DefaultBus.Router</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-Core 0x00007ffe466b0000 + 72a213 
+UnrealEditor-Core 0x00007ffe466b0000 + d96cd 
+UnrealEditor-Core 0x00007ffe466b0000 + d9ace 
+UnrealEditor-RenderCore 0x00007ffe66f00000 + 1a014a 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>29684</ThreadID>
+				<ThreadName>RHIThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-Core 0x00007ffe466b0000 + 72a213 
+UnrealEditor-Core 0x00007ffe466b0000 + d96cd 
+UnrealEditor-Core 0x00007ffe466b0000 + d9ace 
+UnrealEditor-RenderCore 0x00007ffe66f00000 + 19f999 
+UnrealEditor-RenderCore 0x00007ffe66f00000 + 1a0274 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>32444</ThreadID>
+				<ThreadName>RenderThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 162184 
+ntdll 0x00007fff1c7a0000 + d1014 
+KERNELBASE 0x00007fff1a130000 + 46f01 
+UnrealEditor-Core 0x00007ffe466b0000 + 727d67 
+UnrealEditor-RenderCore 0x00007ffe66f00000 + 1a03a8 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14612</ThreadID>
+				<ThreadName>RTHeartBeat 0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-LiveCoding 0x00007ffdfa140000 + 2f0e1 
+UnrealEditor-LiveCoding 0x00007ffdfa140000 + 2b9ac 
+UnrealEditor-LiveCoding 0x00007ffdfa140000 + 40df 
+ucrtbase 0x00007fff19fb0000 + 37b0 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>32124</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-LiveCoding 0x00007ffdfa140000 + 2f211 
+UnrealEditor-LiveCoding 0x00007ffdfa140000 + 2d122 
+UnrealEditor-LiveCoding 0x00007ffdfa140000 + 4198 
+ucrtbase 0x00007fff19fb0000 + 37b0 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>9184</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 162184 
+ntdll 0x00007fff1c7a0000 + d1014 
+KERNELBASE 0x00007fff1a130000 + 46f01 
+UnrealEditor-Core 0x00007ffe466b0000 + 727d67 
+UnrealEditor-TcpMessaging 0x000001a2b63d0000 + 12e27 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>31824</ThreadID>
+				<ThreadName>FTcpMessageTransport</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-Core 0x00007ffe466b0000 + 72a213 
+UnrealEditor-UdpMessaging 0x000001a2b6410000 + 65017 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16468</ThreadID>
+				<ThreadName>FUdpMessageProcessor.Sender</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+KERNELBASE 0x00007fff1a130000 + 3b1bf 
+UnrealEditor-Core 0x00007ffe466b0000 + 72a213 
+UnrealEditor-UdpMessaging 0x000001a2b6410000 + 65430 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>21188</ThreadID>
+				<ThreadName>FUdpMessageBeacon</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+MSWSOCK 0x00007fff18310000 + 951a 
+MSWSOCK 0x00007fff18310000 + 91f2 
+WS2_32 0x00007fff1b780000 + 119c1 
+UnrealEditor-Sockets 0x00007ffeb38c0000 + 1021f 
+UnrealEditor-Sockets 0x00007ffeb38c0000 + 16c2a 
+UnrealEditor-UdpMessaging 0x000001a2b6410000 + 730c4 
+UnrealEditor-UdpMessaging 0x000001a2b6410000 + 6575c 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6064</ThreadID>
+				<ThreadName>UdpMessageMulticastReceiver</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007fff1c7a0000 + 161b84 
+MSWSOCK 0x00007fff18310000 + 951a 
+MSWSOCK 0x00007fff18310000 + 91f2 
+WS2_32 0x00007fff1b780000 + 119c1 
+UnrealEditor-Sockets 0x00007ffeb38c0000 + 1021f 
+UnrealEditor-Sockets 0x00007ffeb38c0000 + 16c2a 
+UnrealEditor-UdpMessaging 0x000001a2b6410000 + 730c4 
+UnrealEditor-UdpMessaging 0x000001a2b6410000 + 6575c 
+UnrealEditor-Core 0x00007ffe466b0000 + 7a6cf8 
+UnrealEditor-Core 0x00007ffe466b0000 + 79fb0f 
+KERNEL32 0x00007fff1a780000 + 2e8d7 
+ntdll 0x00007fff1c7a0000 + 8c3fc 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>31956</ThreadID>
+				<ThreadName>UdpMessageUnicastReceiver</ThreadName>
+			</Thread>
+		</Threads>
+		<TimeOfCrash>639140848584100000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<CPUBrand>Intel(R) Core(TM) Ultra 9 275HX</CPUBrand>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+		<Modules>F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-AutomationController.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-AIGraph.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-GameplayTasksEditor.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-OverlayEditor.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-CollisionAnalyzer.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-FunctionalTesting.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-StringTableEditor.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-ClothingSystemRuntimeNv.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-ClothingSystemEditor.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-AnimationDataController.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\AndroidFileServer\Binaries\Win64\UnrealEditor-AndroidFileServer.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\WebMMoviePlayer\Binaries\Win64\UnrealEditor-WebMMoviePlayer.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\WindowsMoviePlayer\Binaries\Win64\UnrealEditor-WindowsMoviePlayer.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\HairStrands\Binaries\Win64\UnrealEditor-HairCardGeneratorFramework.dll
+F:\epic\UE_5.7\Engine\Plugins\EnhancedInput\Binaries\Win64\UnrealEditor-InputEditor.dll
+F:\epic\UE_5.7\Engine\Plugins\Experimental\GeometryFlow\Binaries\Win64\UnrealEditor-GeometryFlowMeshProcessingEditor.dll
+F:\epic\UE_5.7\Engine\Binaries\ThirdParty\Python3\Win64\python3.dll
+F:\epic\UE_5.7\Engine\Plugins\Experimental\ToolPresets\Binaries\Win64\UnrealEditor-ToolPresetAsset.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-BehaviorTreeEditor.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-AITestSuite.dll
+F:\epic\UE_5.7\Engine\Plugins\EnhancedInput\Binaries\Win64\UnrealEditor-InputBlueprintNodes.dll
+F:\epic\UE_5.7\Engine\Plugins\Interchange\Runtime\Binaries\Win64\UnrealEditor-InterchangeCommonParser.dll
+F:\epic\UE_5.7\Engine\Plugins\Experimental\EditorDataStorageFeatures\Binaries\Win64\UnrealEditor-TedsAlerts.dll
+F:\epic\UE_5.7\Engine\Plugins\Editor\StylusInput\Binaries\Win64\UnrealEditor-StylusInput.dll
+F:\epic\UE_5.7\Engine\Plugins\Experimental\EditorDataStorageFeatures\Binaries\Win64\UnrealEditor-TedsQueryStack.dll
+F:\epic\UE_5.7\Engine\Plugins\Experimental\Dataflow\Binaries\Win64\UnrealEditor-DataflowAssetTools.dll
+F:\epic\UE_5.7\Engine\Plugins\Interchange\Runtime\Binaries\Win64\UnrealEditor-InterchangeMessages.dll
+F:\epic\UE_5.7\Engine\Plugins\Experimental\EditorDataStorageFeatures\Binaries\Win64\UnrealEditor-TedsActorCompatibility.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-MeshConversionEngineTypes.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\MeshModelingToolset\Binaries\Win64\UnrealEditor-SkeletalMeshModifiers.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\MeshModelingToolset\Binaries\Win64\UnrealEditor-ModelingOperatorsEditorOnly.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-WorldBookmark.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-WorldPartitionEditor.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-MassEntity.dll
+F:\epic\UE_5.7\Engine\Plugins\Editor\EditorScriptingUtilities\Binaries\Win64\UnrealEditor-EditorScriptingUtilities.dll
+F:\epic\UE_5.7\Engine\Plugins\EnhancedInput\Binaries\Win64\UnrealEditor-EnhancedInput.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-GeometryFramework.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-MassEntityTestSuite.dll
+F:\epic\UE_5.7\Engine\Plugins\Media\WebMMedia\Binaries\Win64\UnrealEditor-WebMMedia.dll
+F:\epic\UE_5.7\Engine\Plugins\Editor\DataValidation\Binaries\Win64\UnrealEditor-DataValidation.dll
+F:\epic\UE_5.7\Engine\Plugins\Interchange\Runtime\Binaries\Win64\UnrealEditor-GLTFCore.dll
+F:\epic\UE_5.7\Engine\Plugins\Experimental\EditorDataStorageFeatures\Binaries\Win64\UnrealEditor-TedsTableViewer.dll
+F:\epic\UE_5.7\Engine\Plugins\Experimental\EditorDataStorageFeatures\Binaries\Win64\UnrealEditor-TedsOutliner.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\GeometryProcessing\Binaries\Win64\UnrealEditor-GeometryAlgorithms.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\GeometryProcessing\Binaries\Win64\UnrealEditor-DynamicMesh.dll
+F:\epic\UE_5.7\Engine\Plugins\Experimental\PlanarCutPlugin\Binaries\Win64\UnrealEditor-PlanarCut.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\MeshModelingToolset\Binaries\Win64\UnrealEditor-ModelingComponents.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\MeshModelingToolset\Binaries\Win64\UnrealEditor-ModelingOperators.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\MeshModelingToolset\Binaries\Win64\UnrealEditor-MeshModelingTools.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\MeshModelingToolset\Binaries\Win64\UnrealEditor-ModelingComponentsEditorOnly.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\MeshModelingToolset\Binaries\Win64\UnrealEditor-MeshModelingToolsEditorOnly.dll
+F:\epic\UE_5.7\Engine\Plugins\Experimental\MeshModelingToolsetExp\Binaries\Win64\UnrealEditor-MeshModelingToolsEditorOnlyExp.dll
+F:\epic\UE_5.7\Engine\Plugins\Experimental\GeometryFlow\Binaries\Win64\UnrealEditor-GeometryFlowCore.dll
+F:\epic\UE_5.7\Engine\Plugins\Experimental\CharacterFXEditor\BaseCharacterFXEditor\Binaries\Win64\UnrealEditor-BaseCharacterFXEditor.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-CEF3Utils.dll
+F:\epic\UE_5.7\Engine\Plugins\Experimental\MeshModelingToolsetExp\Binaries\Win64\UnrealEditor-MeshModelingToolsExp.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-SkeletalMeshEditor.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-StaticMeshEditor.dll
+F:\epic\UE_5.7\Engine\Plugins\Experimental\GeometryFlow\Binaries\Win64\UnrealEditor-GeometryFlowMeshProcessing.dll
+F:\epic\UE_5.7\Engine\Plugins\Editor\MeshLODToolset\Binaries\Win64\UnrealEditor-MeshLODToolset.dll
+F:\epic\UE_5.7\Engine\Plugins\Experimental\MeshModelingToolsetExp\Binaries\Win64\UnrealEditor-ModelingEditorUI.dll
+F:\epic\UE_5.7\Engine\Plugins\Experimental\ToolPresets\Binaries\Win64\UnrealEditor-ToolPresetEditor.dll
+F:\epic\UE_5.7\Engine\Plugins\Editor\ModelingToolsEditorMode\Binaries\Win64\UnrealEditor-ModelingToolsEditorMode.dll
+F:\epic\UE_5.7\Engine\Plugins\Animation\SkeletalMeshModelingTools\Binaries\Win64\UnrealEditor-SkeletalMeshModelingTools.dll
+F:\epic\UE_5.7\Engine\Plugins\Experimental\Dataflow\Binaries\Win64\UnrealEditor-DataflowEnginePlugin.dll
+F:\epic\UE_5.7\Engine\Plugins\Experimental\Dataflow\Binaries\Win64\UnrealEditor-DataflowNodes.dll
+F:\epic\UE_5.7\Engine\Plugins\Experimental\Dataflow\Binaries\Win64\UnrealEditor-DataflowEditor.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\HairStrands\Binaries\Win64\UnrealEditor-HairStrandsEditor.dll
+F:\epic\UE_5.7\Engine\Plugins\Interchange\Runtime\Binaries\Win64\UnrealEditor-InterchangeFbxParser.dll
+F:\epic\UE_5.7\Engine\Plugins\Enterprise\VariantManager\Binaries\Win64\UnrealEditor-VariantManager.dll
+F:\epic\UE_5.7\Engine\Plugins\Interchange\Runtime\Binaries\Win64\UnrealEditor-InterchangeDispatcher.dll
+F:\epic\UE_5.7\Engine\Plugins\Interchange\Runtime\Binaries\Win64\UnrealEditor-InterchangeImport.dll
+F:\epic\UE_5.7\Engine\Plugins\Interchange\Runtime\Binaries\Win64\UnrealEditor-InterchangePipelines.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\SignificanceManager\Binaries\Win64\UnrealEditor-SignificanceManager.dll
+F:\epic\UE_5.7\Engine\Plugins\Developer\AnimationSharing\Binaries\Win64\UnrealEditor-AnimationSharing.dll
+F:\epic\UE_5.7\Engine\Plugins\2D\Paper2D\Binaries\Win64\UnrealEditor-Paper2D.dll
+F:\epic\UE_5.7\Engine\Plugins\Marketplace\PaperZD2e8a5df400f9V20\Binaries\Win64\UnrealEditor-PaperZD.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-MeshPaint.dll
+F:\epic\UE_5.7\Engine\Plugins\2D\Paper2D\Binaries\Win64\UnrealEditor-Paper2DEditor.dll
+F:\epic\UE_5.7\Engine\Plugins\Marketplace\PaperZD2e8a5df400f9V20\Binaries\Win64\UnrealEditor-PaperZDEditor.dll
+F:\epic\UE_5.7\Engine\Plugins\Developer\PropertyAccessNode\Binaries\Win64\UnrealEditor-PropertyAccessNode.dll
+F:\epic\UE_5.7\Engine\Plugins\Editor\ContentBrowser\ContentBrowserAssetDataSource\Binaries\Win64\UnrealEditor-ContentBrowserAssetDataSource.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-TreeMap.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-TraceInsightsCore.dll
+F:\epic\UE_5.7\Engine\Plugins\Editor\AssetManagerEditor\Binaries\Win64\UnrealEditor-AssetManagerEditor.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-LocalizationCommandletExecution.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-TranslationEditor.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-Serialization.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-WebBrowser.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-MainFrame.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-HotReload.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-PixelInspectorModule.dll
+F:\epic\UE_5.7\Engine\Plugins\Editor\FacialAnimation\Binaries\Win64\UnrealEditor-FacialAnimation.dll
+F:\epic\UE_5.7\Engine\Plugins\Editor\FacialAnimation\Binaries\Win64\UnrealEditor-FacialAnimationEditor.dll
+F:\epic\UE_5.7\Engine\Plugins\Editor\GameplayTagsEditor\Binaries\Win64\UnrealEditor-GameplayTagsEditor.dll
+F:\epic\UE_5.7\Engine\Plugins\Messaging\TcpMessaging\Binaries\Win64\UnrealEditor-TcpMessaging.dll
+F:\epic\UE_5.7\Engine\Plugins\Messaging\UdpMessaging\Binaries\Win64\UnrealEditor-UdpMessaging.dll
+F:\epic\UE_5.7\Engine\Plugins\Media\ImgMedia\Binaries\Win64\UnrealEditor-ImgMediaEngine.dll
+F:\epic\UE_5.7\Engine\Plugins\Developer\NamingTokens\Binaries\Win64\UnrealEditor-NamingTokens.dll
+F:\epic\UE_5.7\Engine\Plugins\VirtualProduction\Takes\Binaries\Win64\UnrealEditor-TakeMovieScene.dll
+F:\epic\UE_5.7\Engine\Plugins\VirtualProduction\Takes\Binaries\Win64\UnrealEditor-TakesCore.dll
+F:\epic\UE_5.7\Engine\Plugins\VirtualProduction\Takes\Binaries\Win64\UnrealEditor-TakeTrackRecorders.dll
+F:\epic\UE_5.7\Engine\Plugins\VirtualProduction\Takes\Binaries\Win64\UnrealEditor-TakeRecorder.dll
+F:\epic\UE_5.7\Engine\Plugins\Experimental\ChaosCaching\Binaries\Win64\UnrealEditor-ChaosCachingEditor.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\RigVM\Binaries\Win64\UnrealEditor-RigVM.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-VisualGraphUtils.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\RigVM\Binaries\Win64\UnrealEditor-RigVMDeveloper.dll
+F:\epic\UE_5.7\Engine\Plugins\Animation\ControlRig\Binaries\Win64\UnrealEditor-ControlRig.dll
+F:\epic\UE_5.7\Engine\Plugins\Experimental\FullBodyIK\Binaries\Win64\UnrealEditor-FullBodyIK.dll
+F:\epic\UE_5.7\Engine\Plugins\Experimental\FullBodyIK\Binaries\Win64\UnrealEditor-PBIK.dll
+F:\epic\UE_5.7\Engine\Plugins\Editor\ContentBrowser\ContentBrowserFileDataSource\Binaries\Win64\UnrealEditor-ContentBrowserFileDataSource.dll
+F:\epic\UE_5.7\Engine\Plugins\Experimental\PythonScriptPlugin\Binaries\Win64\UnrealEditor-PythonScriptPlugin.dll
+F:\epic\UE_5.7\Engine\Plugins\Experimental\SequenceNavigator\Binaries\Win64\UnrealEditor-SequenceNavigator.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-AudioAnalyzer.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\AudioSynesthesia\Binaries\Win64\UnrealEditor-AudioSynesthesia.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\CableComponent\Binaries\Win64\UnrealEditor-CableComponent.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\CustomMeshComponent\Binaries\Win64\UnrealEditor-CustomMeshComponent.dll
+F:\epic\UE_5.7\Engine\Plugins\Animation\DeformerGraph\Binaries\Win64\UnrealEditor-OptimusCore.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\HairStrands\Binaries\Win64\UnrealEditor-HairStrandsSolver.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\HairStrands\Binaries\Win64\UnrealEditor-HairStrandsDeformer.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\LocationServicesBPLibrary\Binaries\Win64\UnrealEditor-LocationServicesBPLibrary.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-MathCore.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\Metasound\Binaries\Win64\UnrealEditor-MetasoundGraphCore.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\Metasound\Binaries\Win64\UnrealEditor-MetasoundFrontend.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\Metasound\Binaries\Win64\UnrealEditor-MetasoundGenerator.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\Metasound\Binaries\Win64\UnrealEditor-MetasoundStandardNodes.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\WaveTable\Binaries\Win64\UnrealEditor-WaveTable.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\Metasound\Binaries\Win64\UnrealEditor-MetasoundEngine.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\Metasound\Binaries\Win64\UnrealEditor-MetasoundEngineTest.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\AudioWidgets\Binaries\Win64\UnrealEditor-AudioWidgetsCore.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\AudioWidgets\Binaries\Win64\UnrealEditor-AudioWidgets.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\Metasound\Binaries\Win64\UnrealEditor-MetasoundEditor.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\MsQuic\Binaries\Win64\UnrealEditor-MsQuicRuntime.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\ProceduralMeshComponent\Binaries\Win64\UnrealEditor-ProceduralMeshComponent.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\PropertyBindingUtils\Binaries\Win64\UnrealEditor-PropertyBindingUtils.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\PropertyBindingUtils\Binaries\Win64\UnrealEditor-PropertyBindingUtilsTestSuite.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\PropertyAccess\Binaries\Win64\UnrealEditor-PropertyAccessEditor.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\ResonanceAudio\Binaries\Win64\UnrealEditor-ResonanceAudio.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\SoundFields\Binaries\Win64\UnrealEditor-SoundFields.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\Synthesis\Binaries\Win64\UnrealEditor-Synthesis.dll
+F:\epic\UE_5.7\Engine\Plugins\MovieScene\ActorSequence\Binaries\Win64\UnrealEditor-ActorSequence.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\StateTree\Binaries\Win64\UnrealEditor-StateTreeModule.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-RewindDebuggerRuntimeInterface.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\StateTree\Binaries\Win64\UnrealEditor-StateTreeDeveloper.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\PropertyBindingUtils\Binaries\Win64\UnrealEditor-PropertyBindingUtilsEditor.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\StateTree\Binaries\Win64\UnrealEditor-StateTreeEditorModule.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\StateTree\Binaries\Win64\UnrealEditor-StateTreeTestSuite.dll
+F:\epic\UE_5.7\Engine\Plugins\NNE\NNERuntimeORT\Binaries\Win64\UnrealEditor-NNERuntimeORT.dll
+F:\epic\UE_5.7\Engine\Plugins\NNE\NNERuntimeORT\Binaries\ThirdParty\Onnxruntime\Win64\onnxruntime.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\DML\x64\DirectML.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor.exe
+F:\epic\UE_5.7\Engine\Plugins\Runtime\AudioSynesthesia\Binaries\Win64\UnrealEditor-AudioSynesthesiaCore.dll
+F:\epic\UE_5.7\Engine\Plugins\FX\NiagaraSimCaching\Binaries\Win64\UnrealEditor-NiagaraSimCachingEditor.dll
+F:\epic\UE_5.7\Engine\Plugins\VirtualProduction\Takes\Binaries\Win64\UnrealEditor-CacheTrackRecorder.dll
+F:\epic\UE_5.7\Engine\Plugins\FX\NiagaraSimCaching\Binaries\Win64\UnrealEditor-NiagaraSimCaching.dll
+F:\epic\UE_5.7\Engine\Plugins\FX\Niagara\Binaries\Win64\UnrealEditor-NiagaraAnimNotifies.dll
+F:\epic\UE_5.7\Engine\Plugins\FX\Niagara\Binaries\Win64\UnrealEditor-NiagaraEditor.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-UserAssetTagsEditor.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-DataHierarchyEditor.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-SessionFrontend.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-SparseVolumeTexture.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-NaniteBuilder.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-NaniteUtilities.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-GeometryProcessingInterfaces.dll
+F:\epic\UE_5.7\Engine\Plugins\Experimental\SkeletalReduction\Binaries\Win64\UnrealEditor-SkeletalMeshReduction.dll
+F:\epic\UE_5.7\Engine\Plugins\Editor\ProxyLODPlugin\Binaries\Win64\UnrealEditor-ProxyLODMeshReduction.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\tbb12.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-QuadricMeshReduction.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-MeshMergeUtilities.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-MeshUtilities.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-Persona.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-PinnedCommandList.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-MetalShaderFormat.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-MeshBoneReduction.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\metalirconverter.dll
+F:\epic\UE_5.7\Engine\Binaries\ThirdParty\ShaderConductor\Win64\ShaderConductor.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-VulkanShaderFormat.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-MeshReductionInterface.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-ShaderFormatOpenGL.dll
+F:\epic\UE_5.7\Engine\Binaries\ThirdParty\ShaderConductor\Win64\dxcompiler.dll
+F:\epic\UE_5.7\Engine\Binaries\ThirdParty\ShaderConductor\Win64\dxil.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-ShaderFormatD3D.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-HlslParser.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-ShaderFormatVectorVM.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-ShaderCompilerCommon.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-FileUtilities.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-ShaderPreprocessor.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-AudioFormatRad.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-AudioFormatBink.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-AudioFormatADPCM.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-AudioFormatOgg.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-AudioFormatOpus.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-WindowsTargetPlatformControls.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-WindowsTargetPlatformSettings.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-WindowsTargetPlatform.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\IOS\UnrealEditor-TVOSTargetPlatformControls.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\IOS\UnrealEditor-TVOSTargetPlatformSettings.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\IOS\UnrealEditor-TVOSTargetPlatform.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-MacTargetPlatformControls.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-MacTargetPlatformSettings.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-CookedEditor.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-MacTargetPlatform.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\Linux\UnrealEditor-LinuxTargetPlatformControls.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\Linux\UnrealEditor-LinuxTargetPlatformSettings.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\Linux\UnrealEditor-LinuxTargetPlatform.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\IOS\UnrealEditor-IOSTargetPlatformControls.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\IOS\UnrealEditor-IOSTargetPlatformSettings.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\IOS\UnrealEditor-IOSTargetPlatform.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-LiveCoding.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\Android\UnrealEditor-AndroidTargetPlatformControls.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\Android\UnrealEditor-AndroidTargetPlatformSettings.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\Android\UnrealEditor-AndroidTargetPlatform.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\oo2tex_win64_2.9.5.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\oo2tex_win64_2.9.14.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\astcenc_thunk_win64_5.0.1.dll
+F:\epic\UE_5.7\Engine\Plugins\Developer\TextureFormatOodle\Binaries\Win64\UnrealEditor-TextureFormatOodle.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-TextureFormatUncompressed.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-TextureFormatIntelISPCTexComp.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-TextureFormatETC2.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-TextureFormatDXT.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-TextureFormatASTC.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-TextureBuild.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-TurnkeySupport.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-LauncherServices.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-TargetPlatform.dll
+F:\epic\UE_5.7\Engine\Binaries\ThirdParty\NVIDIA\NVaftermath\Win64\GFSDK_Aftermath_Lib.x64.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-TextureFormat.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-Settings.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-WindowsPlatformFeatures.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-GameplayMediaEncoder.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-AVEncoder.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-D3D12RHI.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-RHICore.dll
+F:\epic\UE_5.7\Engine\Plugins\Compositing\CompositeCore\Binaries\Win64\UnrealEditor-CompositeCore.dll
+F:\epic\UE_5.7\Engine\Plugins\Animation\DeformerGraph\Binaries\Win64\UnrealEditor-OptimusSettings.dll
+F:\epic\UE_5.7\Engine\Plugins\Animation\ACLPlugin\Binaries\Win64\UnrealEditor-ACLPlugin.dll
+F:\epic\UE_5.7\Engine\Plugins\NNE\NNEDenoiser\Binaries\Win64\UnrealEditor-NNEDenoiserShaders.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\WindowsDeviceProfileSelector\Binaries\Win64\UnrealEditor-WindowsDeviceProfileSelector.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\ComputeFramework\Binaries\Win64\UnrealEditor-ComputeFramework.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\ChunkDownloader\Binaries\Win64\UnrealEditor-ChunkDownloader.dll
+F:\epic\UE_5.7\Engine\Plugins\Portal\LauncherChunkInstaller\Binaries\Win64\UnrealEditor-LauncherChunkInstaller.dll
+F:\epic\UE_5.7\Engine\Plugins\Experimental\RuntimeTelemetry\Binaries\Win64\UnrealEditor-RuntimeTelemetry.dll
+F:\epic\UE_5.7\Engine\Plugins\Experimental\NFORDenoise\Binaries\Win64\UnrealEditor-NFORDenoise.dll
+F:\epic\UE_5.7\Engine\Plugins\Experimental\EditorPerformance\Binaries\Win64\UnrealEditor-EditorPerformance.dll
+F:\epic\UE_5.7\Engine\Plugins\Experimental\EditorPerformance\Binaries\Win64\UnrealEditor-StallLogSubsystem.dll
+F:\epic\UE_5.7\Engine\Plugins\Experimental\EditorTelemetry\Binaries\Win64\UnrealEditor-EditorTelemetry.dll
+F:\epic\UE_5.7\Engine\Plugins\Media\WmfMedia\Binaries\Win64\UnrealEditor-WmfMedia.dll
+F:\epic\UE_5.7\Engine\Plugins\Media\WmfMedia\Binaries\Win64\UnrealEditor-WmfMediaFactory.dll
+F:\epic\UE_5.7\Engine\Plugins\Media\ImgMedia\Binaries\Win64\UnrealEditor-ExrReaderGpu.dll
+F:\epic\UE_5.7\Engine\Plugins\Enterprise\GLTFExporter\Binaries\Win64\UnrealEditor-GLTFExporter.dll
+F:\epic\UE_5.7\Engine\Plugins\Interchange\Runtime\Binaries\Win64\UnrealEditor-InterchangeFactoryNodes.dll
+F:\epic\UE_5.7\Engine\Plugins\Interchange\Runtime\Binaries\Win64\UnrealEditor-InterchangeNodes.dll
+F:\epic\UE_5.7\Engine\Plugins\Interchange\Runtime\Binaries\Win64\UnrealEditor-InterchangeCommon.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\HairStrands\Binaries\Win64\UnrealEditor-HairStrandsCore.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\GeometryCache\Binaries\Win64\UnrealEditor-GeometryCache.dll
+F:\epic\UE_5.7\Engine\Plugins\FX\Niagara\Binaries\Win64\UnrealEditor-Niagara.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-VectorVM.dll
+F:\epic\UE_5.7\Engine\Plugins\FX\Niagara\Binaries\Win64\UnrealEditor-NiagaraVertexFactories.dll
+F:\epic\UE_5.7\Engine\Plugins\FX\Niagara\Binaries\Win64\UnrealEditor-NiagaraShader.dll
+F:\epic\UE_5.7\Engine\Plugins\FX\Niagara\Binaries\Win64\UnrealEditor-NiagaraCore.dll
+F:\epic\UE_5.7\Engine\Plugins\Online\OnlineSubsystemUtils\Binaries\Win64\UnrealEditor-OnlineBlueprintSupport.dll
+F:\epic\UE_5.7\Engine\Plugins\Online\OnlineSubsystemNull\Binaries\Win64\UnrealEditor-OnlineSubsystemNull.dll
+F:\epic\UE_5.7\Engine\Plugins\Online\OnlineSubsystemUtils\Binaries\Win64\UnrealEditor-OnlineSubsystemUtils.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-Voice.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-XMPP.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-WebSockets.dll
+F:\epic\UE_5.7\Engine\Plugins\Online\OnlineSubsystem\Binaries\Win64\UnrealEditor-OnlineSubsystem.dll
+F:\epic\UE_5.7\Engine\Plugins\Enterprise\DatasmithContent\Binaries\Win64\UnrealEditor-DatasmithContent.dll
+F:\epic\UE_5.7\Engine\Plugins\Enterprise\VariantManagerContent\Binaries\Win64\UnrealEditor-VariantManagerContent.dll
+F:\epic\UE_5.7\Engine\Plugins\Online\OnlineServices\Binaries\Win64\UnrealEditor-OnlineServicesCommonEngineUtils.dll
+F:\epic\UE_5.7\Engine\Plugins\Online\OnlineServices\Binaries\Win64\UnrealEditor-OnlineServicesCommon.dll
+F:\epic\UE_5.7\Engine\Plugins\Online\OnlineServices\Binaries\Win64\UnrealEditor-OnlineServicesInterface.dll
+F:\epic\UE_5.7\Engine\Plugins\Online\OnlineBase\Binaries\Win64\UnrealEditor-OnlineBase.dll
+F:\epic\UE_5.7\Engine\Plugins\Developer\RenderDocPlugin\Binaries\Win64\UnrealEditor-RenderDocPlugin.dll
+F:\epic\UE_5.7\Engine\Plugins\Developer\PixWinPlugin\Binaries\Win64\UnrealEditor-PixWinPlugin.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\EOSSDK-Win64-Shipping.dll
+F:\epic\UE_5.7\Engine\Plugins\Online\EOSShared\Binaries\Win64\UnrealEditor-EOSShared.dll
+F:\epic\UE_5.7\Engine\Plugins\Developer\GPUReshape\Binaries\Win64\UnrealEditor-GPUReshape.dll
+F:\epic\UE_5.7\Engine\Plugins\ChaosCloth\Binaries\Win64\UnrealEditor-ChaosCloth.dll
+F:\epic\UE_5.7\Engine\Plugins\Experimental\ChaosCaching\Binaries\Win64\UnrealEditor-ChaosCaching.dll
+F:\epic\UE_5.7\Engine\Binaries\ThirdParty\Python3\Win64\python311.dll
+F:\epic\UE_5.7\Engine\Plugins\Experimental\PythonScriptPlugin\Binaries\Win64\UnrealEditor-PythonScriptPluginPreload.dll
+F:\epic\UE_5.7\Engine\Plugins\Experimental\PlatformCrypto\Binaries\Win64\UnrealEditor-PlatformCrypto.dll
+F:\epic\UE_5.7\Engine\Plugins\Experimental\PlatformCrypto\Binaries\Win64\UnrealEditor-PlatformCryptoContext.dll
+F:\epic\UE_5.7\Engine\Plugins\Developer\PlasticSourceControl\Binaries\Win64\UnrealEditor-PlasticSourceControl.dll
+F:\epic\UE_5.7\Engine\Plugins\Developer\PerforceSourceControl\Binaries\Win64\UnrealEditor-PerforceSourceControl.dll
+F:\epic\UE_5.7\Engine\Plugins\XGEController\Binaries\Win64\UnrealEditor-XGEController.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealBuildAccelerator\x64\UbaHost.dll
+F:\epic\UE_5.7\Engine\Plugins\UbaController\Binaries\Win64\UnrealEditor-UbaController.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-UbaCoordinatorHorde.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-RadAudioDecoder.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-BinkAudioDecoder.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-AdpcmAudioDecoder.dll
+F:\epic\UE_5.7\Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015\libvorbis_64.dll
+F:\epic\UE_5.7\Engine\Binaries\ThirdParty\Ogg\Win64\VS2015\libogg_64.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-VorbisAudioDecoder.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-OpusAudioDecoder.dll
+F:\epic\UE_5.7\Engine\Binaries\ThirdParty\DbgHelp\dbghelp.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-AnimationModifiers.dll
+F:\epic\UE_5.7\Engine\Binaries\ThirdParty\libsndfile\Win64\libsndfile-1.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-MessageLog.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-Virtualization.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-StreamingFile.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-NetworkFile.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-StorageServerClient.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-DataflowSimulation.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-GameplayDebugger.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-AVIWriter.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-GameplayTasks.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-SequenceRecorder.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-LiveLinkInterface.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-ISMPool.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-FieldSystemEngine.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-DataflowCore.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-DataflowEngine.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-ChaosSolverEngine.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-MeshConversion.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-MovieSceneCapture.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-SequencerCore.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-SerializedRecorderInterface.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-StorageServerWidgets.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-DerivedDataWidgets.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-AIModule.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-ConfigEditor.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-AudioSettingsEditor.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-InternationalizationSettings.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-DesktopWidgets.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-AdvancedWidgets.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-MeshBuilderCommon.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-SlateReflector.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-MovieSceneTools.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-Blutility.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-StructUtilsEditor.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-Voronoi.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-ReliabilityHandlerComponent.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-OpenColorIOWrapper.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-UELibSampleRate.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-AudioLinkEngine.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-SoundFieldRendering.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-GeometryCollectionEngine.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-MeshUtilitiesEngine.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-EditorToolEvents.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-SlateRHIRenderer.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-Navmesh.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-MeshUtilitiesCommon.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-ContentBrowser.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-Networking.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-StudioTelemetry.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-PIEPreviewDeviceSpecification.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-Sequencer.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-Constraints.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-AnimationBlueprintLibrary.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-AnimationCore.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-HeadMountedDisplay.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-UnsavedAssetsTracker.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-ZenEditor.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-HardwareTargeting.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-ContentBrowserData.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-ClassViewer.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-DerivedDataEditor.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-SourceControlWindows.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-ActionableMessage.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-WidgetCarousel.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-DetailCustomizations.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-MeshBuilder.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-UMGEditor.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-BlueprintEditorLibrary.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-SharedSettingsWidgets.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-SceneDepthPickerMode.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-EditorConfig.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-ActorPickerMode.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-CQTest.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-PropertyPath.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-EditorStyle.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-SceneOutliner.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-AdvancedPreviewScene.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-RSA.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-AnimGraphRuntime.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-SequencerWidgets.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-KismetCompiler.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-AnimationEditMode.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-KismetWidgets.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-IrisCore.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-MediaAssets.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-ClothingSystemRuntimeInterface.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-Chaos.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-ChaosVDRuntime.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-NNE.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-Horde.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-ChaosCore.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-AudioExtensions.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-GameplayTags.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-SkeletalMeshDescription.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-AnalyticsET.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-NetCore.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-CoreOnline.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-TextureCompressor.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-AudioMixer.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-PhysicsCore.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-AssetTools.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-WidgetRegistration.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-ToolWidgets.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-PhysicsUtilities.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-SubobjectDataInterface.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-InterchangeCore.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-InterchangeEngine.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-StatusBar.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-InteractiveToolsFramework.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-TypedElementFramework.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-MaterialShaderQualitySettings.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-NavigationSystem.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-StaticMeshDescription.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-MeshDescription.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-UMG.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-AudioEditor.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-BlueprintGraph.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-Localization.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-SourceControl.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-UncontrolledChangelists.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-Documentation.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-Renderer.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-GeometryCore.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-SubobjectEditor.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-MaterialBaking.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-TraceServices.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-TraceAnalysis.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-EditorInteractiveToolsFramework.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-IoStoreUtilities.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-ToolMenus.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-MovieSceneTracks.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-MovieScene.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-VREditor.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-GameProjectGeneration.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-LevelEditor.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-AddContentDialog.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-Landscape.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-FoliageEdit.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-Kismet.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-GraphEditor.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\libfbxsdk.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-PropertyEditor.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-MaterialEditor.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-ImageWrapper.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-AnimGraph.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-AppFramework.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-Zen.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-DevHttp.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-UnrealEd.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-HTTP.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-Engine.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-DerivedDataCache.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-SlateCore.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-StateStream.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-PakFileUtilities.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-CurveEditor.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-Slate.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-Core.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-CoreUObject.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-TelemetryUtils.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-ViewportInteraction.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-Icmp.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-Foliage.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-Analytics.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-TextureBuildUtilities.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-CommonMenuExtensions.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-EditorWidgets.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-NetworkReplayStreaming.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-EditorFramework.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-AudioLinkCore.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-PacketHandler.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-SSL.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-AudioPlatformConfiguration.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-DeveloperToolSettings.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-TypedElementRuntime.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-DirectoryWatcher.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-StatsViewer.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-XmlParser.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-AssetRegistry.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-AssetDefinition.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-EngineMessages.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-ClothingSystemEditorInterface.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-UniversalObjectLocator.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-DataLayerEditor.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-RenderCore.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-RawMesh.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-TimeManagement.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-EditorAnalyticsSession.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-ClothingSystemRuntimeCommon.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-EditorSubsystem.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-AudioMixerCore.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-UnrealEdMessages.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-CookOnTheFly.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-PIEPreviewDeviceProfileSelector.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-HierarchicalLODUtilities.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-MaterialUtilities.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-JsonUtilities.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-TextureUtilitiesCommon.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-FieldNotification.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-PakFile.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-SandboxFile.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-SkeletalMeshUtilitiesCommon.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-JsonObjectGraph.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-CinematicCamera.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-LevelSequence.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-DeveloperSettings.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-BSPUtils.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-AssetTagsEditor.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-SignalProcessing.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-ScriptDisassembler.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-ImageCore.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-Sockets.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-Json.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-SwarmInterface.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-IESFile.dll
+F:\epic\UE_5.7\Engine\Plugins\AI\AISupport\Binaries\Win64\UnrealEditor-AISupportModule.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-EngineSettings.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-CookMetadata.dll
+F:\epic\UE_5.7\Engine\Plugins\Runtime\ExampleDeviceProfileSelector\Binaries\Win64\UnrealEditor-ExampleDeviceProfileSelector.dll
+F:\epic\UE_5.7\Engine\Plugins\Interchange\Assets\Binaries\Win64\UnrealEditor-InterchangeAssets.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-IoStoreOnDemandCore.dll
+F:\epic\UE_5.7\Engine\Plugins\Experimental\PlatformCrypto\Binaries\Win64\UnrealEditor-PlatformCryptoTypes.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-EventLoop.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-ImageWriteQueue.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-DesktopPlatform.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-ApplicationCore.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-RHI.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-PreLoadScreen.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-MediaUtils.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-Media.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-Cbor.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-InstallBundleManager.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-Nanosvg.dll
+F:\epic\UE_5.7\Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015\libvorbisfile_64.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-Projects.dll
+F:\epic\UE_5.7\Engine\Binaries\ThirdParty\Windows\WinPixEventRuntime\x64\WinPixEventRuntime.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\tbbmalloc.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-Overlay.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-AutomationTest.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-RewindDebuggerInterface.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-AutomationMessages.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-WorkspaceMenuStructure.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-ScriptableEditorWidgets.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-BuildSettings.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-CorePreciseFP.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-AutoRTFM.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-TraceLog.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-MoviePlayer.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-InputCore.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-MoviePlayerProxy.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-LandscapeEditorUtilities.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-MRMesh.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-Messaging.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-SourceCodeAccess.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-TargetDeviceServices.dll
+F:\epic\UE_5.7\Engine\Binaries\Win64\UnrealEditor-NullInstallBundleManager.dll</Modules>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<PlatformIsRunningWine>false</PlatformIsRunningWine>
+		<PlatformSupportsWindows11>true</PlatformSupportsWindows11>
+		<IsRunningOnBattery>true</IsRunningOnBattery>
+		<IsUsingBatterySaver>false</IsUsingBatterySaver>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+		<CrashTrigger>0</CrashTrigger>
+	</PlatformProperties>
+	<EngineData>
+		<MatchingDPStatus>WindowsEditorNo errors</MatchingDPStatus>
+		<RHI.IntegratedGPU>false</RHI.IntegratedGPU>
+		<RHI.DriverDenylisted>false</RHI.DriverDenylisted>
+		<RHI.D3DDebug>false</RHI.D3DDebug>
+		<RHI.DRED>false</RHI.DRED>
+		<RHI.DREDMarkersOnly>false</RHI.DREDMarkersOnly>
+		<RHI.DREDContext>false</RHI.DREDContext>
+		<RHI.Aftermath>true</RHI.Aftermath>
+		<RHI.RHIName>D3D12</RHI.RHIName>
+		<RHI.AdapterName>NVIDIA GeForce RTX 5060 Laptop GPU</RHI.AdapterName>
+		<RHI.UserDriverVersion>595.71</RHI.UserDriverVersion>
+		<RHI.InternalDriverVersion>32.0.15.9571</RHI.InternalDriverVersion>
+		<RHI.DriverDate>2-27-2026</RHI.DriverDate>
+		<RHI.FeatureLevel>SM6</RHI.FeatureLevel>
+		<RHI.GPUVendor>NVIDIA</RHI.GPUVendor>
+		<RHI.DeviceId>2D59</RHI.DeviceId>
+		<DeviceProfile.Name>WindowsEditor</DeviceProfile.Name>
+	</EngineData>
+	<GameData>
+</GameData>
+</FGenericCrashContext>
