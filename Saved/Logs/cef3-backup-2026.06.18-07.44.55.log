@@ -1,0 +1,31 @@
+[17516:18708:0618/130529.424:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[17516:18708:0618/130529.814:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[17516:26020:0618/130535.686:WARNING:leveldb_database.cc(141)] Unable to open F:\epic\UE_5.7\project\live\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: F:\epic\UE_5.7\project\live\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[17516:26020:0618/130535.690:WARNING:leveldb_database.cc(141)] Unable to open F:\epic\UE_5.7\project\live\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: F:\epic\UE_5.7\project\live\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[17516:26020:0618/130535.694:WARNING:leveldb_database.cc(141)] Unable to open F:\epic\UE_5.7\project\live\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: F:\epic\UE_5.7\project\live\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[17516:26020:0618/130535.697:WARNING:leveldb_database.cc(141)] Unable to open F:\epic\UE_5.7\project\live\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: F:\epic\UE_5.7\project\live\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[17516:26020:0618/130541.990:WARNING:value_store_frontend.cc(47)] Reading ahfgeienlihckogmohjhadlkjgocpleb.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[17516:26020:0618/130541.994:WARNING:value_store_frontend.cc(47)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[11716:5048:0618/130542.249:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-653B0E90D70286B4C8DADA06A31103C5 will be ignored
+[28192:20568:0618/130543.632:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[28192:20240:0618/130543.664:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[28192:20240:0618/130543.665:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[28192:20240:0618/130543.665:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[17516:16268:0618/130544.786:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,9]
+[17516:18708:0618/130546.136:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[17516:18708:0618/130546.136:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[17516:18708:0618/130546.136:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[17516:18708:0618/130546.136:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[17516:16268:0618/130546.138:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[13424:22508:0618/130548.148:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[13424:14204:0618/130548.181:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[13424:14204:0618/130548.181:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[13424:14204:0618/130548.181:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[13424:22508:0618/130601.238:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[13424:22508:0618/130601.246:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[13424:14204:0618/130601.256:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[13424:14204:0618/130601.256:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[13424:14204:0618/130601.256:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[17516:18708:0618/130734.325:ERROR:device_event_log_impl.cc(196)] [13:07:34.284] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 找不到元素。 (0x490)
+[16752:11884:0618/130811.340:ERROR:shared_image_manager.cc(224)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[17516:18708:0618/154455.212:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
