@@ -1,0 +1,33 @@
+[38988:53356:0620/141008.701:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[38988:53356:0620/141008.763:ERROR:os_crypt_win.cc(100)] Failed to decrypt: 该项不适于在指定状态下使用。 (0x8009000B)
+[38988:53356:0620/141008.817:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[38988:15452:0620/141014.590:WARNING:leveldb_database.cc(141)] Unable to open D:\LIVE\live\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: D:\LIVE\live\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[38988:15452:0620/141014.592:WARNING:leveldb_database.cc(141)] Unable to open D:\LIVE\live\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: D:\LIVE\live\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[38988:15452:0620/141014.595:WARNING:leveldb_database.cc(141)] Unable to open D:\LIVE\live\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: D:\LIVE\live\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[38988:15452:0620/141014.598:WARNING:leveldb_database.cc(141)] Unable to open D:\LIVE\live\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: D:\LIVE\live\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[38988:41208:0620/141015.107:WARNING:value_store_frontend.cc(47)] Reading ahfgeienlihckogmohjhadlkjgocpleb.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[38988:41208:0620/141015.117:WARNING:value_store_frontend.cc(47)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[68692:67148:0620/141015.646:ERROR:backend_impl.cc(989)] Critical error found -8
+[68692:67148:0620/141017.684:WARNING:storage_block-inl.h(138)] Failed data load.
+[68692:67148:0620/141017.684:WARNING:storage_block-inl.h(138)] Failed data load.
+[68692:67148:0620/141017.685:WARNING:storage_block-inl.h(138)] Failed data load.
+[68692:67148:0620/141017.685:ERROR:entry_impl.cc(955)] Failed to save user data
+[68692:67148:0620/141017.685:ERROR:entry_impl.cc(955)] Failed to save user data
+[63532:33344:0620/141018.288:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-C2E57A1DE6F0266AFDAC55CCC1F99466 will be ignored
+[40540:62952:0620/141019.651:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[40540:10668:0620/141019.666:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[40540:10668:0620/141019.666:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[40540:10668:0620/141019.667:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[38988:31984:0620/141021.159:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,9]
+[38988:53356:0620/141022.386:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[38988:53356:0620/141022.386:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[38988:53356:0620/141022.386:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[38988:53356:0620/141022.386:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[38988:31984:0620/141022.393:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[74836:52896:0620/141022.944:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[74836:36440:0620/141022.974:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[74836:36440:0620/141022.974:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[74836:36440:0620/141022.974:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[74836:52896:0620/141026.152:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[39428:36444:0620/141231.616:ERROR:shared_image_manager.cc(224)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[38988:53356:0620/190509.519:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

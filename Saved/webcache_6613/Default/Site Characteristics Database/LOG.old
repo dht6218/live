@@ -1,6 +1,1 @@
-2026/06/20-14:10:08.842 f060 Log #6: 9 ops saved to Table #7 OK
-2026/06/20-14:10:08.854 f060 Archiving D:\LIVE\live\Saved\webcache_6613\Default\Site Characteristics Database/000006.log: OK
-2026/06/20-14:10:08.861 f060 Table #4: 4 entries OK
-2026/06/20-14:10:08.862 f060 Table #7: 9 entries OK
-2026/06/20-14:10:08.869 f060 Archiving D:\LIVE\live\Saved\webcache_6613\Default\Site Characteristics Database/MANIFEST-000001: OK
-2026/06/20-14:10:08.879 f060 **** Repaired leveldb D:\LIVE\live\Saved\webcache_6613\Default\Site Characteristics Database; recovered 2 files; 487 bytes. Some data may have been lost. ****
+2026/06/20-14:10:08.889 f060 Reusing MANIFEST D:\LIVE\live\Saved\webcache_6613\Default\Site Characteristics Database/MANIFEST-000001
