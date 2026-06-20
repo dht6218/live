@@ -1,3 +1,6 @@
-2026/06/18-13:05:29.889 65a4 Reusing MANIFEST F:\epic\UE_5.7\project\live\Saved\webcache_6613\Default\Site Characteristics Database/MANIFEST-000001
-2026/06/18-13:05:29.896 65a4 Recovering log #6
-2026/06/18-13:05:29.897 65a4 Reusing old log F:\epic\UE_5.7\project\live\Saved\webcache_6613\Default\Site Characteristics Database/000006.log 
+2026/06/20-14:10:08.842 f060 Log #6: 9 ops saved to Table #7 OK
+2026/06/20-14:10:08.854 f060 Archiving D:\LIVE\live\Saved\webcache_6613\Default\Site Characteristics Database/000006.log: OK
+2026/06/20-14:10:08.861 f060 Table #4: 4 entries OK
+2026/06/20-14:10:08.862 f060 Table #7: 9 entries OK
+2026/06/20-14:10:08.869 f060 Archiving D:\LIVE\live\Saved\webcache_6613\Default\Site Characteristics Database/MANIFEST-000001: OK
+2026/06/20-14:10:08.879 f060 **** Repaired leveldb D:\LIVE\live\Saved\webcache_6613\Default\Site Characteristics Database; recovered 2 files; 487 bytes. Some data may have been lost. ****
