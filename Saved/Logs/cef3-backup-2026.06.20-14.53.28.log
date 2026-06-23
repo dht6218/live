@@ -1,0 +1,27 @@
+[38028:57072:0620/213639.788:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[38028:57072:0620/213639.977:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[38028:82700:0620/213645.277:WARNING:leveldb_database.cc(141)] Unable to open D:\LIVE\live\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: D:\LIVE\live\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[38028:82700:0620/213645.280:WARNING:leveldb_database.cc(141)] Unable to open D:\LIVE\live\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: D:\LIVE\live\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[38028:82700:0620/213645.282:WARNING:leveldb_database.cc(141)] Unable to open D:\LIVE\live\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: D:\LIVE\live\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[38028:82700:0620/213645.284:WARNING:leveldb_database.cc(141)] Unable to open D:\LIVE\live\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: D:\LIVE\live\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[41504:74236:0620/213647.347:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-32C3DEB1FC119B5B222CBEC1AD253B1D will be ignored
+[38028:63808:0620/213647.686:WARNING:value_store_frontend.cc(47)] Reading ahfgeienlihckogmohjhadlkjgocpleb.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[38028:63808:0620/213647.687:WARNING:value_store_frontend.cc(47)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[51196:72920:0620/213648.995:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[51196:62508:0620/213649.024:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[51196:62508:0620/213649.024:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[51196:62508:0620/213649.025:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[38028:39064:0620/213650.684:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,9]
+[38028:57072:0620/213651.216:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[38028:57072:0620/213651.216:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[38028:57072:0620/213651.216:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[38028:57072:0620/213651.216:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[38028:39064:0620/213651.219:WARNING:browser_info.cc(345)] Returning a speculative frame for [9,9]
+[78268:72064:0620/213652.700:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[78268:78308:0620/213652.735:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[78268:78308:0620/213652.735:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[78268:78308:0620/213652.735:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[78268:72064:0620/213657.939:WARNING:codec.cc(525)] Explicitly added H264 constrained baseline to list of supported formats.
+[51196:44568:0620/213904.062:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 6-EDC7A84777F66AD58F69920603C9C4B2 will be ignored
+[39856:66264:0620/213904.127:ERROR:shared_image_manager.cc(224)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[38028:57072:0620/225328.575:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

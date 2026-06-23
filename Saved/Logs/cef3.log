@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [29212:13028:0623/134848.890:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
 [29212:13028:0623/134849.304:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
 [29212:33464:0623/134855.938:WARNING:leveldb_database.cc(141)] Unable to open F:\epic\UE_5.7\project\live\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: F:\epic\UE_5.7\project\live\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
@@ -9,3 +10,15 @@
 [24640:30924:0623/134858.283:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-836A649947560E3C7BECC7162708C7BC will be ignored
 [29212:13028:0623/134952.565:ERROR:device_event_log_impl.cc(196)] [13:49:52.559] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 找不到元素。 (0x490)
 [29212:13028:0623/171921.493:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+=======
+[53132:68380:0623/150750.637:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[53132:68380:0623/150750.698:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[53132:81000:0623/150755.179:WARNING:leveldb_database.cc(141)] Unable to open D:\LIVE\live\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: D:\LIVE\live\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[53132:81000:0623/150755.181:WARNING:leveldb_database.cc(141)] Unable to open D:\LIVE\live\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: D:\LIVE\live\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[53132:81000:0623/150755.184:WARNING:leveldb_database.cc(141)] Unable to open D:\LIVE\live\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: D:\LIVE\live\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[53132:81000:0623/150755.185:WARNING:leveldb_database.cc(141)] Unable to open D:\LIVE\live\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: D:\LIVE\live\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[53132:81000:0623/150755.735:WARNING:value_store_frontend.cc(47)] Reading ahfgeienlihckogmohjhadlkjgocpleb.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[53132:81000:0623/150755.737:WARNING:value_store_frontend.cc(47)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[45544:43252:0623/150756.199:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-CD932085C819A85DAB6BCB441DF860EE will be ignored
+[53132:68380:0623/154959.167:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+>>>>>>> 2c069373feaf51d07c77304d51df6035f6755953
