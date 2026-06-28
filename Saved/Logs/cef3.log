@@ -1,6 +1,5 @@
-[43716:39608:0629/003600.377:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
-[43716:39608:0629/003600.439:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
-[43364:10736:0629/003607.921:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-DBD986F65EFB9A5DA62F3EDF51951B1B will be ignored
-[20192:6924:0629/012828.361:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -100
-[20192:6924:0629/012833.362:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -100
-[43716:39608:0629/013405.794:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[38572:35432:0629/024541.861:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[38572:35432:0629/024541.904:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[5488:39816:0629/024549.618:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-23CE8A5AC90AB4F9AC124DE4A0C26AB1 will be ignored
+[36180:31768:0629/024553.696:WARNING:spdy_session.cc(2985)] Received HEADERS for invalid stream 5
+[38572:35432:0629/025150.371:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

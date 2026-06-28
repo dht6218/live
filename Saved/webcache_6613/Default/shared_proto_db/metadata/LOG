@@ -1,3 +1,2 @@
-2026/06/29-00:36:05.237 4dcc Reusing MANIFEST F:\epic\UE_5.7\project\live\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001
-2026/06/29-00:36:05.239 4dcc Recovering log #3
-2026/06/29-00:36:05.240 4dcc Reusing old log F:\epic\UE_5.7\project\live\Saved\webcache_6613\Default\shared_proto_db\metadata/000003.log 
+2026/06/29-02:45:47.908 a140 Creating DB F:\epic\UE_5.7\project\live\Saved\webcache_6613\Default\shared_proto_db\metadata since it was missing.
+2026/06/29-02:45:47.920 a140 Reusing MANIFEST F:\epic\UE_5.7\project\live\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001
